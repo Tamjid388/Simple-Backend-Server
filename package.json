@@ -1,0 +1,17 @@
+{
+  "name": "simple-backend-server",
+  "version": "1.0.0",
+  "description": "a basic backend server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "tamjid ahemed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
