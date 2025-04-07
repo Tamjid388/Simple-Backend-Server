@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "a basic backend server",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "node"
@@ -12,6 +13,7 @@
   "author": "tamjid ahemed",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^5.1.0"
   }

@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import axios from 'axios'
-// http://localhost:5000/jokes
+
+
 function App() {
   const [jokes, setJokes] = useState([])
  
@@ -32,9 +33,10 @@ function App() {
      <div>
       {
         jokes.map((joke)=>
-        <div  key={joke.id}>
+      (  <div  key={joke.id}>
   <h3 className='text-start'>{joke?.title}</h3>
         </div>)
+        )
       }
      </div>
 
